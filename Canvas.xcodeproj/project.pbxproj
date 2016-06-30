@@ -14,6 +14,7 @@
 		FF3C51441D2588EF006C6556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3C51421D2588EF006C6556 /* LaunchScreen.storyboard */; };
 		FF3C514F1D2588EF006C6556 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C514E1D2588EF006C6556 /* CanvasTests.swift */; };
 		FF3C515A1D2588EF006C6556 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C51591D2588EF006C6556 /* CanvasUITests.swift */; };
+		FF3C51681D258976006C6556 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C51671D258976006C6556 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FF3C51551D2588EF006C6556 /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3C51591D2588EF006C6556 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		FF3C515B1D2588EF006C6556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3C51671D258976006C6556 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FF3C51401D2588EF006C6556 /* Assets.xcassets */,
 				FF3C51421D2588EF006C6556 /* LaunchScreen.storyboard */,
 				FF3C51451D2588EF006C6556 /* Info.plist */,
+				FF3C51671D258976006C6556 /* CanvasViewController.swift */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3C513C1D2588EF006C6556 /* ViewController.swift in Sources */,
+				FF3C51681D258976006C6556 /* CanvasViewController.swift in Sources */,
 				FF3C513A1D2588EF006C6556 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				FF3C51601D2588EF006C6556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF3C51611D2588EF006C6556 /* Build configuration list for PBXNativeTarget "CanvasTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				FF3C51631D2588EF006C6556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF3C51641D2588EF006C6556 /* Build configuration list for PBXNativeTarget "CanvasUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				FF3C51661D2588EF006C6556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
